@@ -1,3 +1,9 @@
+### Max system word size
+* sys.maxsize
+* maximum value representable by a signed word
+* It’s usually ```2 ** 31 - 1``` on a 32-bit platform and ```2 ** 63 - 1``` on a 64-bit platform.
+* useful for setting maximum numbers
+
 ### List slicing
 * x[0:2] is the first two items: index 0 and index 1; the end bound is not inclusive; shortcut x[:2]
 * x[2:0] skips the first two items == x[2: end of array]

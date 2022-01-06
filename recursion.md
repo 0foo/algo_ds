@@ -23,7 +23,7 @@ def factorial(n):
 function factorial(x)
     if x is 0                   
         return 1
-    return x*factorial(x-1)     
+    return x * factorial(x-1)     
 ```
 
 
